@@ -1,9 +1,9 @@
-import Parallax from './components/Parallax';
+import Home from './components/Home';
 import './styles/style.css'
 
 function App() {
   return (
-    <Parallax/>
+    <Home/>
   );
 }
 

@@ -19,7 +19,16 @@ export default function Home() {
         ></ParallaxLayer>
         <ParallaxLayer
           offset={0}
-          speed={1}
+          speed={1.5}
+          factor={1}
+          style={{
+            backgroundImage: `url(${layerThree})`,
+            marginLeft: '40%',
+          }}
+        ></ParallaxLayer>
+        <ParallaxLayer
+          offset={0}
+          speed={.7}
           factor={1}
           style={{
             backgroundImage: `linear-gradient(to bottom, transparent,90%, #1d0c30), url(${layerTwo})`,
@@ -27,12 +36,14 @@ export default function Home() {
           }}
         ></ParallaxLayer>
         <ParallaxLayer
-          speed={1}
+          speed={.5}
           offset={.99}
           factor={3}
-
           style={{ backgroundColor: "#1d0c30" }}
-        ></ParallaxLayer>
+        >
+          <h1 className="center">This is a </h1>
+          <h1 className="center">of a parallax </h1>
+        </ParallaxLayer>
       </Parallax>
     </>
   );

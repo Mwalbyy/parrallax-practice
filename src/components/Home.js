@@ -42,7 +42,7 @@ export default function Home() {
           style={{ backgroundColor: "#1d0c30" }}
         >
           <h1 className="center">This is a </h1>
-          <h1 className="center">of a parallax </h1>
+          <h1 className="center">parallax </h1>
         </ParallaxLayer>
       </Parallax>
     </>

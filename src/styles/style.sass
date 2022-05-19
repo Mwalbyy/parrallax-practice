@@ -1,8 +1,19 @@
-body
-    background-color: #2a2a2a
-    color: white
-
-.center
+// Mixins
+@mixin DFC 
     display: flex
     justify-content: center
     align-items: center
+// Mixins
+
+body
+    background-color: #2a2a2a
+    color: white
+    overflow: hidden
+
+.centerContainer
+    @include DFC
+    h1
+        font-size: 3rem
+
+    
+   
